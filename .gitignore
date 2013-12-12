@@ -1,6 +1,13 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+public int howManyAreThere(String[] arr, String target)
+{
+  int length= arr.length;
+  int repetitioncount=0;
+  for (int x=0; x<length; x++)
+  {
+  if (arr[x]==target)
+  {
+  repetitioncount++;
+  }
+  }
+  return repetitioncount;
+}
